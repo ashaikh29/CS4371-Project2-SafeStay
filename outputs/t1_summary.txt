@@ -1,5 +1,5 @@
 Task 1 summary - San Francisco
-Generated: 2026-11-27T05:19:04+00:00
+Generated: 2026-11-27T06:27:44+00:00
 Source: https://data.sf.gov/resource/wg3w-h783.json (date field 'incident_datetime', neighbourhood field 'analysis_neighborhood')
 Requested date range: 2022-01-01 to 2024-12-31
 
@@ -29,4 +29,4 @@ Category mapping: based on 'incident_category'.
   other: every other value (see t1_category_mapping.csv)
 
 neighbourhood_month.parquet: 1,476 rows (neighbourhoods x 3 years x 12 months)
-Raw input: /Users/ayesha/CS4371-Project2-SafeStay/data/raw/incidents.parquet
+Raw input: CS4371-Project2-SafeStay/data/raw/incidents.parquet
