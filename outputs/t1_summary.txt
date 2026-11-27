@@ -1,0 +1,32 @@
+Task 1 summary - San Francisco
+Generated: 2026-11-27T06:27:44+00:00
+Source: https://data.sf.gov/resource/wg3w-h783.json (date field 'incident_datetime', neighbourhood field 'analysis_neighborhood')
+Requested date range: 2022-01-01 to 2024-12-31
+
+Cleaning steps (row counts):
+  Step                                                       Removed  Remaining
+  Raw rows downloaded                                                   374,146
+  1. Duplicate reports (same id or identical row)                  0    374,146
+  2. No date / unparseable date                                    0    374,146
+  3. Date outside 2022-2024                                        0    374,146
+  4. No neighbourhood                                         22,933    351,213
+  5. Missing or invalid coordinates                                0    351,213
+  6. Outside San Francisco                                     3,641    347,572
+  Total removed: 26,574 of 374,146 (7.1%)
+
+Final incidents: 347,572
+Number of neighbourhoods: 41
+Date range of cleaned data: 2022-01-01 00:00:00 to 2024-12-31 23:59:00
+
+Incidents by category:
+  crimes against persons         30,431
+  crimes against property       191,506
+  other                         125,635
+
+Category mapping: based on 'incident_category'.
+  crimes against persons: ASSAULT; HOMICIDE; RAPE; SEX OFFENSE; HUMAN TRAFFICKING (A), COMMERCIAL SEX ACTS; HUMAN TRAFFICKING (B), INVOLUNTARY SERVITUDE; HUMAN TRAFFICKING, COMMERCIAL SEX ACTS; OFFENCES AGAINST THE FAMILY AND CHILDREN
+  crimes against property: LARCENY THEFT; BURGLARY; MOTOR VEHICLE THEFT; MOTOR VEHICLE THEFT?; ROBBERY; VANDALISM; MALICIOUS MISCHIEF; ARSON; STOLEN PROPERTY; FRAUD; FORGERY AND COUNTERFEITING; EMBEZZLEMENT
+  other: every other value (see t1_category_mapping.csv)
+
+neighbourhood_month.parquet: 1,476 rows (neighbourhoods x 3 years x 12 months)
+Raw input: CS4371-Project2-SafeStay/data/raw/incidents.parquet

@@ -1,0 +1,51 @@
+source_field,source_value,category,count
+incident_category,Larceny Theft,crimes against property,96640
+incident_category,Assault,crimes against persons,25094
+incident_category,Malicious Mischief,crimes against property,24915
+incident_category,Motor Vehicle Theft,crimes against property,23928
+incident_category,Other Miscellaneous,other,23496
+incident_category,Burglary,crimes against property,20130
+incident_category,Non-Criminal,other,13305
+incident_category,Fraud,crimes against property,12221
+incident_category,Drug Offense,other,11894
+incident_category,Recovered Vehicle,other,11418
+incident_category,Warrant,other,10561
+incident_category,Robbery,crimes against property,8220
+incident_category,Lost Property,other,8058
+incident_category,Suspicious Occ,other,7820
+incident_category,Missing Person,other,7672
+incident_category,Disorderly Conduct,other,7111
+incident_category,Miscellaneous Investigation,other,5486
+incident_category,Offences Against The Family And Children,crimes against persons,4669
+incident_category,Other,other,3389
+incident_category,Weapons Offense,other,2995
+incident_category,Other Offenses,other,2615
+incident_category,Traffic Violation Arrest,other,2586
+incident_category,Weapons Carrying Etc,other,2146
+incident_category,Stolen Property,crimes against property,1701
+incident_category,Case Closure,other,1201
+incident_category,Forgery And Counterfeiting,crimes against property,1163
+incident_category,Traffic Collision,other,1125
+incident_category,Arson,crimes against property,1091
+incident_category,Vandalism,crimes against property,1057
+incident_category,Fire Report,other,628
+incident_category,(missing),other,559
+incident_category,Sex Offense,crimes against persons,436
+incident_category,Embezzlement,crimes against property,417
+incident_category,Courtesy Report,other,408
+incident_category,Vehicle Impounded,other,329
+incident_category,Prostitution,other,181
+incident_category,Suicide,other,178
+incident_category,Vehicle Misplaced,other,170
+incident_category,Drug Violation,other,130
+incident_category,Homicide,crimes against persons,111
+incident_category,Rape,crimes against persons,101
+incident_category,Liquor Laws,other,95
+incident_category,Suspicious,other,36
+incident_category,Gambling,other,27
+incident_category,Motor Vehicle Theft?,crimes against property,23
+incident_category,"Human Trafficking (A), Commercial Sex Acts",crimes against persons,14
+incident_category,Civil Sidewalks,other,10
+incident_category,Weapons Offence,other,6
+incident_category,"Human Trafficking, Commercial Sex Acts",crimes against persons,4
+incident_category,"Human Trafficking (B), Involuntary Servitude",crimes against persons,2
