@@ -87,4 +87,19 @@ The mapping is `PERSONS_VALUES` and `PROPERTY_VALUES` in `safestay/config.py`, a
 - **Other:** everything else, for example drug, weapons and warrant offences, non-criminal
   reports, lost property and missing persons.
 
+### Using Task 1 results in later tasks
+
+Later tasks get incident figures from `safestay/incidents.py` and never re-clean the raw
+data, so every task shows the same numbers. Averages are rounded once, there, to 1 decimal
+place; seasonal ratios are rounded to 2.
+
+```python
+from safestay import incidents
+
+incidents.month_outlook("July")        # per neighbourhood, July averaged over 2022–2024 (Tasks 2, 8)
+incidents.overall_monthly_average()    # per neighbourhood, average over all 36 months (Task 3)
+incidents.city_monthly_totals()        # city's average incident total per calendar month (Task 6)
+incidents.neighbourhoods()             # the 41 neighbourhood names
+```
+
 
